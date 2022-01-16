@@ -3,4 +3,4 @@
 <p align="center"> Results For Desktop </p>
 <img src="Results/404 results desktop.png">
 <p align="center"> Results For Mobile </p>
-<img align="center" src="Results/404 results mobile.png">
+<img src="Results/404 results mobile.png">
