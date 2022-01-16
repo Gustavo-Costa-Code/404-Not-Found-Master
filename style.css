@@ -1,0 +1,144 @@
+/* Reset do CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Header */
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-family:'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    letter-spacing: -2px;
+}
+
+@media screen and (max-width:480px) {
+    header{
+        padding-top: 20px;
+    }
+}
+
+/* Main */
+main {
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    margin-top: 200px;
+}
+
+@media screen and (max-width:1000px) {
+    main{
+        margin-top: 68px;
+    }
+}
+
+
+/* Aside */
+
+aside {
+    width: 40%;
+    float: left;
+}
+
+aside img {
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    aside{
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Section */
+
+section {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+section h1 {
+    font-family:'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94,78px;
+    letter-spacing: -1px;
+    color: #333;
+}
+
+section p {
+    margin-top: 30px;
+    font-family:'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35,54px;
+    width: 381px;
+    letter-spacing: -1px;
+    color: #4f4f4f;
+}
+
+section button {
+    margin-top: 64px;
+    font-family:'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -1px;
+    width: 216px;
+    height: 68px;
+    color: #fff;
+    background: #333;
+    border: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    section {
+        width: 100%;
+        margin-left: 0;
+    }
+    section h1{
+        font-size: 48px;
+        width: 350px;
+        line-height: 71px;
+    }
+    section p {
+        font-size: 18px;
+        line-height: 26px;
+        width: 328px;
+    }
+}
+
+/* footer */
+footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+footer h1 {
+   color:  #bdbdbd;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+}
+
+footer h1 span {
+    font-weight: bold;
+}
